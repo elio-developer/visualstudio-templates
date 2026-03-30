@@ -1,0 +1,24 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>CustomContentPage.xaml</DefaultName>
+    <Name>.NET MAUI MVVM Content Page</Name>
+    <Description>
+Creates a MAUI ContentPage with an MVVM ViewModel.
+
+Enter a base name (e.g., "Home"). Generates:
+- HomeContentPage
+- HomeViewModel
+
+Includes DI-ready constructor, BindingContext setup, and InitializeAsync() call.
+	</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$ContentPage.xaml" 		ReplaceParameters="true">CustomContentPage.xaml</ProjectItem>
+    <ProjectItem SubType="Code" 	TargetFileName="$fileinputname$ContentPage.xaml.cs" 	ReplaceParameters="true">CustomContentPage.xaml.cs</ProjectItem>
+	<ProjectItem SubType="" 		TargetFileName="$fileinputname$ViewModel.cs" 		ReplaceParameters="true">CustomViewModel.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
