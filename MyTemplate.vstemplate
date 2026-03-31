@@ -19,6 +19,6 @@ Includes DI-ready constructor, BindingContext setup, and InitializeAsync() call.
     <References />
     <ProjectItem SubType="Designer" TargetFileName="$fileinputname$ContentPage.xaml" 		ReplaceParameters="true">CustomContentPage.xaml</ProjectItem>
     <ProjectItem SubType="Code" 	TargetFileName="$fileinputname$ContentPage.xaml.cs" 	ReplaceParameters="true">CustomContentPage.xaml.cs</ProjectItem>
-	<ProjectItem SubType="" 		TargetFileName="$fileinputname$ViewModel.cs" 		ReplaceParameters="true">CustomViewModel.cs</ProjectItem>
+	<ProjectItem SubType="" 		TargetFileName="$fileinputname$ViewModel.cs" 			ReplaceParameters="true">CustomViewModel.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
