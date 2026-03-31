@@ -1,6 +1,6 @@
 namespace $rootnamespace$;
 
-public partial class $fileinputname$ContentPage : ContentPage
+public partial class $safeitemname$ : ContentPage
 {
     private readonly $fileinputname$ViewModel _viewModel;
     public $safeitemname$($fileinputname$ViewModel viewModel)
